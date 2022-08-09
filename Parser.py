@@ -23,4 +23,4 @@ class Parser:
     def cleanup(self):
         if os.path.isfile(self.output):
             os.remove(self.output)
-        print('Parse cleanup complete.')
+        print('Parser cleanup complete.')
